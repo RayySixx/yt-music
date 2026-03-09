@@ -1,0 +1,17 @@
+{
+  "name": "ytmusic-scraper-api",
+  "version": "1.0.0",
+  "description": "YouTube Music Scraper API for Vercel",
+  "main": "api/search.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/search.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "ytmusic-api": "latest"
+  },
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}
